@@ -52,7 +52,16 @@ The main objectives of this project are:
 
 **Source:** UCI Machine Learning Repository
 
-The dataset contains retail transaction records covering approximately two years.
+**Dataset Link:**  
+https://archive.ics.uci.edu/dataset/502/online%2Bretail%2Bii?utm_source=chatgpt.com
+
+The Online Retail II dataset contains retail transaction records covering approximately two years.
+
+The original dataset is approximately 43.5 MB and is therefore not stored directly in this GitHub repository.
+
+**File used in this project:** `online_retail_II.xlsx`
+
+The dataset was downloaded from the official UCI Machine Learning Repository and used for the complete analysis.
 
 ### Original Dataset
 
@@ -96,7 +105,7 @@ Missing values were identified in:
 - Description
 - Customer ID
 
-Records with missing Description or Customer ID were removed for reliable customer and product analysis.
+Records with missing Description or Customer ID were removed for reliable customer and business analysis.
 
 ### Invalid Data Handling
 
@@ -211,7 +220,7 @@ This analysis helps identify high-value and frequently purchasing customers.
 
 ## 🌍 Country-wise Business Analysis
 
-Revenue was also analyzed across different countries.
+Revenue was analyzed across different countries to identify major business markets.
 
 ### Top Revenue Country
 
